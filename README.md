@@ -1,5 +1,7 @@
 # vue3-element-templete
-### git clone 
-### npm run dev
+### git clone https://github.com/mh185/vue3-element-templete.git
+### 安装依赖 npm install
 
-### npm run build
+### 运行 npm run dev
+
+### 打包 npm run build
