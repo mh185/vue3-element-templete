@@ -1,5 +1,5 @@
 # vue3-element-templete
-<div align=center>
+<div align="center">
 [![](https://img.shields.io/badge/vue-3%2B-green)](https://v3.cn.vuejs.org/) [![](https://img.shields.io/badge/element--plus-1%2B-red)](https://element-plus.gitee.io/zh-CN/#/zh-CN/component/installation) [![](https://img.shields.io/badge/typescript-4%2B-blue)](https://www.typescriptlang.org/) [![](https://img.shields.io/badge/vite-2%2B-orange)](https://vitejs.cn/)
  </div>
 
