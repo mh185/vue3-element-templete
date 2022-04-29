@@ -1,7 +1,7 @@
 # vue3-element-templete
-### git clone https://github.com/mh185/vue3-element-templete.git
-### 安装依赖 npm install
+ - Get the project code
 
-### 运行 npm run dev
-
-### 打包 npm run build
+```javascript
+git clone 
+```
+vue3+element+templete是一套后台管理系统基础模板，其中包含了vue3得全家桶与基本功能体现，可以直接在模板得基础上直接进行练习或者开发。
