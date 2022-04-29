@@ -3,8 +3,8 @@
     <el-menu mode="horizontal" class="el-menu-vertical-demo">
       <el-submenu index="1">
         <template #title
-          ><el-avatar class="avatar" :src="circleUrl" size="small"></el-avatar>
-          <span class="userName"> Vben Admin </span></template
+          ><el-avatar class="avatar" :src="buddha" size="small"></el-avatar>
+          <span class="userName">admin</span></template
         >
         <el-menu-item index="1-1" @click="detrusion">退出</el-menu-item>
       </el-submenu>
@@ -16,9 +16,9 @@
 import { defineComponent } from "vue";
 import { useRouter } from "vue-router";
 import { removeToken } from "@/until/auth";
+import buddha from "@/assets/buddha.jpg";
 export default defineComponent({
   setup() {
-    const circleUrl = "http://qiniu.pigeonfan.com/1649407483000";
     const router = useRouter();
     function detrusion() {
       removeToken();
@@ -27,7 +27,7 @@ export default defineComponent({
       });
     }
     return {
-      circleUrl,
+      buddha,
       detrusion,
     };
   },
@@ -44,6 +44,10 @@ export default defineComponent({
   .userName {
     font-size: 0.175rem;
     padding-left: 0.125rem;
+  }
+  .avatar {
+    width: 40px;
+    height: 40px;
   }
 }
 .el-submenu__title:hover {
