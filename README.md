@@ -1,6 +1,10 @@
 # vue3-element-templete
 
 <p align="center">
+    <img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-201d7d1b-d463-4f91-8946-6d0f6581a344/1e058553-ba12-4afe-b2b5-97da3892c78b.png" alt="vue">
+</p>
+
+<p align="center">
     <a href="https://v3.cn.vuejs.org/">
         <img src="https://img.shields.io/badge/vue-3%2B-green" alt="vue" />
     </a>
