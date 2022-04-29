@@ -1,5 +1,7 @@
 # vue3-element-templete
+<div align=center>
 [![](https://img.shields.io/badge/vue-3%2B-green)](https://v3.cn.vuejs.org/) [![](https://img.shields.io/badge/element--plus-1%2B-red)](https://element-plus.gitee.io/zh-CN/#/zh-CN/component/installation) [![](https://img.shields.io/badge/typescript-4%2B-blue)](https://www.typescriptlang.org/) [![](https://img.shields.io/badge/vite-2%2B-orange)](https://vitejs.cn/)
+ </div>
 
 ![登录页](https://img-blog.csdnimg.cn/f204bf11efcb470096f01fd0a037a463.png)
 
