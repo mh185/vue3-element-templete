@@ -1,6 +1,7 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 const Layout = () => import('../Layout/index.vue')
 import components from './modules/components'
+import menu from "./modules/menu"
 import { getToken } from '../until/auth'
 /**
  * hidden 是否在导航栏显示            ture 不显示
@@ -19,12 +20,12 @@ const routes = [
         redirect: '/dashboard',
         children: [{
             path: '/dashboard',
-            title: '工作台',
             component: () => import('../views/dashboard/index.vue'),
-            meta: { title: '工作台', icon: 'el-icon-menu', }
+            meta: { title: 'dashboard', icon: 'el-icon-eleme', }
         }]
     },
-    components
+    components,
+    menu
 ]
 // 在 Vue-router新版本中，需要使用createRouter来创建路由
 const router = createRouter({
