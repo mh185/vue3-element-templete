@@ -4,7 +4,7 @@ export function getToken() {
     return sessionStorage.getItem(Token)
 }
 
-export function setToken(token: any) {
+export function setToken(token: string) {
     return sessionStorage.setItem(Token, token)
 }
 

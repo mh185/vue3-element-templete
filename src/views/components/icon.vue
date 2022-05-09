@@ -21,9 +21,9 @@ export default {
     glyphs.map((v: any) => {
       v.className = font_family + " " + css_prefix_text + v.font_class;
     });
-    function useCopeChange(val: any) {
-      let conName = `<i class="${val}"></i>`;
-      let con = useCope(conName);
+    function useCopeChange(val: string): void {
+      let conName: string = `<i class="${val}"></i>`;
+      let con: string = useCope(conName);
       ElNotification({
         title: "复制成功",
         dangerouslyUseHTMLString: true,

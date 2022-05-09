@@ -2,10 +2,9 @@
  * @param val 
  * @returns 
  */
-export default function (val: any) {
-    let copyipt = document.createElement("input");
-    let text = val;
-    copyipt.setAttribute("value", text);
+export default function (val: any): string {
+    let copyipt: any = document.createElement("input");
+    copyipt.setAttribute("value", val);
     document.body.appendChild(copyipt);
     copyipt.select();
     document.execCommand("copy");

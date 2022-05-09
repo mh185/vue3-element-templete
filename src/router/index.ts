@@ -1,13 +1,14 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-const Layout = () => import('../Layout/index.vue')
 import components from './modules/components'
 import menu from "./modules/menu"
 import { getToken } from '../until/auth'
+
+export const Layout = () => import('../Layout/index.vue')
 /**
  * hidden 是否在导航栏显示            ture 不显示
  * meta        title: 名称    icon: 图标
  */
-const routes = [
+export const routes: Array<RouteRecordRaw> = [
     {
         path: '/login',
         name: 'Login',
@@ -28,7 +29,7 @@ const routes = [
     menu
 ]
 // 在 Vue-router新版本中，需要使用createRouter来创建路由
-const router = createRouter({
+export const router = createRouter({
     // 指定路由的模式,此处使用的是hash模式,createWebHistory为history模式
     history: createWebHashHistory(),
     // 路由地址

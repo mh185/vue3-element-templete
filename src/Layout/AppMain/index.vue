@@ -11,7 +11,7 @@ export default defineComponent({
   name: "AppMain",
   setup() {
     const router: any = useRouter;
-    function key() {
+    function key(): any {
       return router.path;
     }
     return {
